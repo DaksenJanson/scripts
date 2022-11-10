@@ -6,7 +6,7 @@
  * @last Modified time 2022/01/20 11:17
  * @description SSPANEL面板自动签到
  */
-const $ = new require('./env').Env('SSPANEL面板自动签到');
+const $ = new require('./env').Env('SSPANEL面板自动签到6499');
 const notify = $.isNode() ? require('./sendNotify') : '';
 let total = process.env.SITE_ACCOUNTS, totalList = [], message = '';
 
